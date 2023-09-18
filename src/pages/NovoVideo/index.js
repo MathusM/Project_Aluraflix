@@ -158,7 +158,7 @@ function NovoVideo({validacoes}) {
                         setCategoria(event.target.value)}}
                   >
                     {categoriasExistentes.map(categoria => (
-                      <option>{categoria.nome}</option>
+                      <option key={categoria.nome}>{categoria.nome}</option>
                     ))}
                   </ListaSuspensa>
 
@@ -167,7 +167,7 @@ function NovoVideo({validacoes}) {
                       name="codigo"
                       label="Digite o Codigo de Segurança" 
                       type="number" 
-                      margin="small" 
+                      margin="none" 
                       full={false} 
                       obrigatorio={true}
                       estiloMargin={estiloMargin}

@@ -140,13 +140,12 @@ function EditarVideo({validacoes}) {
 
             <Container component="article" maxWidth="lg" className={styles.container}>
                 <h1 className={styles.titulo}>Editar Video : <br></br>{NomeDoVideo}</h1>
-                <Formulario 
-                    submit={(event) => {
+                <form className={styles.form}
+                    onSubmit={(event) => {
                         event.preventDefault();
 
                         if(ValidarCodigoDeSegurança(codigo) === true && PossoEnviar()){
                             setErroCodigo({codigo : {valido: true}})
-                            (id)
                             EditarVideoReg({titulo, categoria, link, capa, codigo, id, texto})
                             return true
                         } else {
@@ -210,7 +209,7 @@ function EditarVideo({validacoes}) {
                         setCategoria(event.target.value)}}
                   >
                     {categoriasExistentes.map(categoria => (
-                      <option>{categoria.nome}</option>
+                      <option key={categoria.nome}>{categoria.nome}</option>
                     ))}
                   </ListaSuspensa>
 
@@ -219,7 +218,7 @@ function EditarVideo({validacoes}) {
                       name="codigo"
                       label="Digite o Codigo de Segurança" 
                       type="number" 
-                      margin="small" 
+                      margin="none" 
                       full={false} 
                       obrigatorio={true}
                       estiloMargin={estiloMargin}
@@ -257,7 +256,7 @@ function EditarVideo({validacoes}) {
                     </section>
 
                     
-                </Formulario>
+                </form>
                 <h3 className={styles.informacao}>**Recomendamos que a imagem seja em 320x180</h3>
                 <h3 className={styles.informacao}>**O Link do Video, deve vir da aba de compartilhamento, e em incorporação! <br/>
                 Caso não o faça sera impossivel reproduzir o Video no Player

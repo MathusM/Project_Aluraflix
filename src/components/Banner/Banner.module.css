@@ -16,7 +16,7 @@
     
 }
 
-.texto h1 {
+.texto h2 {
     font-size: 46px;
     font-weight: 500;
     color: rgb(255, 255, 255);
@@ -46,7 +46,23 @@
         width: 100%;
     }
 
-    .texto h1 {
+    .texto h2 {
+        font-weight: 700;
         font-size: 36px;
+        margin: 40px 0 0
+    }
+    .texto p {
+        font-weight: 300
+    }
+}
+
+@media screen and (min-width: 500.1px) and (max-width:800px) {
+    .container {
+        flex-direction: column;
+        padding: 4em 0;
+
+    }
+    .container iframe {
+        width: 100%;
     }
 }
