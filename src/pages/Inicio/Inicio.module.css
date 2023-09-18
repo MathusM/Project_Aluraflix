@@ -1,0 +1,15 @@
+.container {
+    background-image: url('../../imagens/BannerBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #000000E5;
+    background-position: top;
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        background-size: 100%;
+        background-position: 0px 50px;
+    }
+}

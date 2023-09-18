@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1em 3em;
+}
+
+.container h3 {
+    font-size: 36px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.container h1 {
+    font-size: 38px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.container iframe {
+    border: 3px solid rgb(0, 0, 255);
+    border-radius: 10px;
+}
+
+.container h4 {
+    font-size: 28px;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.container p {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+    color: white;
+
+}

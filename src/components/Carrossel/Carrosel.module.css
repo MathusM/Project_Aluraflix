@@ -1,0 +1,42 @@
+.container {
+    width: 100%;
+    max-width: 1700px;
+    margin-left: 1em;
+    
+}
+
+.texto {
+    display: flex;
+    align-items: center;
+    column-gap: 1.5em;
+}
+
+.texto h2 {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.carrocel {
+    display: flex;
+    column-gap: 4em;
+    overflow: hidden;
+    cursor: grab;
+}
+
+.inner {
+    display: flex;
+    column-gap: 4em;
+}
+@media only screen and (min-width: 500.1px){
+    .container {
+    margin: 1em 4em 0 4em;
+    }
+}
+@media screen and(max-width: 500px){
+    .container {
+        padding: 3em;
+        margin-left: 1em;
+    }
+    
+}

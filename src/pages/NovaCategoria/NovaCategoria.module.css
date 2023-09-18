@@ -1,0 +1,22 @@
+.container {
+    padding: 3em 3em;
+    display: flex;
+}
+
+.titulos {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 5px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 1em;
+}
+
+.botoes {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3em;
+    margin-bottom: 4em;
+}

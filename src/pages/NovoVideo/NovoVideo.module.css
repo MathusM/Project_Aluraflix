@@ -1,0 +1,67 @@
+.container {
+    padding: 1em 3em;
+    display: flex;
+    
+}
+
+
+.titulo {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 60px 5px 40px 5px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.botoes {
+    margin: 3em 0;
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+}
+
+.div1 {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao1 {
+    margin-right: 10px;
+}
+
+.informacao {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+    color: white;
+
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 500px){
+    .botoes {
+        flex-direction: column;
+    }
+    .botoes {
+        width: 100%;
+    }
+
+    .div1 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .div1:first-child {
+        margin-right: 10px;
+    }
+    
+}

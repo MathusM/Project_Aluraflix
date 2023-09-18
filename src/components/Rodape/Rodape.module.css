@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em 6em;
+    background-color: #000000E5;
+    border-top: 2px solid #6BD1FF;
+}
+
+.container img {
+    align-self: center;
+}
+
+.texto {
+    display: flex;
+    align-self: center;
+    align-items: center;
+
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}

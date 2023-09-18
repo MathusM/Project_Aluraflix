@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+}
+
+.botao {
+    background-color: #6BD1FF;
+    border-radius: 5px;
+    width: 204px;
+    height: 60px;
+    flex-shrink: 0;
+    text-align: center;
+
+    box-sizing: border-box;
+}
+
+.botao h1{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin: 0.4em 0;
+    color: white;
+}
+
+.categoriaTexto {
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 5%;
+}

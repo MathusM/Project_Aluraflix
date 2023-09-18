@@ -1,0 +1,42 @@
+.container {
+    padding: 1em 3em;
+    display: flex;
+    
+}
+
+
+.titulo {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 5px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.botoes {
+    margin-top: 3em;
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+}
+
+.div1 {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.informacao {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
